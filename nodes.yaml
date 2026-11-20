@@ -1,6 +1,6 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-20 05:41:28 UTC
-# 节点数: 120 | 来源: free18(496), ermaozi(254), mahdibland(39), nomorewalls(11)
+# 生成时间: 2026-11-20 07:43:47 UTC
+# 节点数: 120 | 来源: free18(496), ermaozi(254), mahdibland(36), nomorewalls(14)
 # 已优选，仅保留评分最高的 120 个节点；完整版见 nodes-full.yaml。
 # 免费公开节点，未实测连通性，仅供应急；勿用于登录重要账号。
 proxies:
@@ -607,13 +607,6 @@ proxies:
     headers:
       Host: freeceshi6.frii.site
   udp: true
-- name: 🇭🇰HK-16.106.31.174-0519 | 0.032MB
-  server: sclass-00.catcat321.com
-  port: 20103
-  type: trojan
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  sni: hk.catxstar.com
-  skip-cert-verify: false
 - type: ss
   name: 🇸🇬_新加坡 (6)
   server: 149.88.107.74
@@ -1477,6 +1470,13 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '@OutlineReleasedKey'
+  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+  port: 443
+  server: 201.8.71.59
+  sni: steel7.hadsvpn.com
+  tls: false
+  type: hysteria2
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1528,7 +1528,6 @@ proxy-groups:
   - 🇭🇰 香港 | HKG
   - 🇰🇷 韩国 | KOR
   - 🇸🇬 新加坡 | SGP 2
-  - 🇭🇰HK-16.106.31.174-0519 | 0.032MB
   - 🇸🇬_新加坡 (6)
   - 🇸🇬_新加坡 (7)
   - 🇸🇬_新加坡 (8)
@@ -1601,6 +1600,7 @@ proxy-groups:
   - 🇺🇸_US_美国_IPV4 (11)
   - 🇺🇸_US_美国_IPV4 (12)
   - 🇺🇲16@exclavevpn
+  - '@OutlineReleasedKey'
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
