@@ -1,6 +1,6 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-19 23:43:09 UTC
-# 节点数: 120 | 来源: free18(267), ermaozi(288), mahdibland(104), nomorewalls(44), v2rayfree(17), au1rxx(80)
+# 生成时间: 2026-11-20 01:42:25 UTC
+# 节点数: 120 | 来源: free18(267), ermaozi(318), mahdibland(107), nomorewalls(0), v2rayfree(15), au1rxx(93)
 # 已优选，仅保留评分最高的 120 个节点；完整版见 nodes-full.yaml。
 # 免费公开节点，未实测连通性，仅供应急；勿用于登录重要账号。
 proxies:
@@ -144,28 +144,24 @@ proxies:
   skip-cert-verify: true
   sni: ''
   type: hysteria2
+- name: hysteria2-1887186463
+  password: 4fUg3KH31LpMhko6o0Ka9Q
+  port: 36720
+  server: 198.46.146.118
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- name: hysteria2-1929114993
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.64.194.247
+  skip-cert-verify: true
+  sni: vpn-de-002.fastervpn.world
+  type: hysteria2
 - name: 🇸🇬214601 | ⚡️Telegram = t.me/v...
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 18.143.176.12
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 🇯🇵218802 | ⚡️Telegram = t.me/L...
-  password: oracle_hy2_pass_2026
-  port: 8443
-  server: 129.225.181.46
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
-  name: '🇸🇬 新加坡 | SGP #2'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
-  server: 13.229.50.232
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -192,6 +188,15 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 🇸🇬 新加坡 | SGP 3
+  server: 175.41.188.76
+  port: 443
+  type: hysteria2
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: trojan-1939846065
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -649,6 +654,86 @@ proxies:
   type: vless
   udp: true
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+- client-fingerprint: chrome
+  name: vless-1853978506
+  network: tcp
+  port: 21001
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+    short-id: ab39fc68ab3dee81
+  server: 511.150333.xyz
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+- client-fingerprint: random
+  name: vless-1880616613
+  network: tcp
+  port: 21004
+  reality-opts:
+    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+    short-id: 4e0418d648f86141
+  server: 510.150333.xyz
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 67952583-8572-42e1-943d-0602794f885b
+- client-fingerprint: chrome
+  name: vless-1828137269
+  network: tcp
+  port: 21004
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+    short-id: 2df2bd9d8366cef1
+  server: 511.150333.xyz
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+- client-fingerprint: chrome
+  name: vless-1844556217
+  network: tcp
+  port: 21004
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+    short-id: 2df2bd9d8366cef1
+  server: 103.106.229.37
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1827147089
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.35
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: vless-1891839087
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.74
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - type: vless
   name: 🇯🇵_日本 (21)
   server: 62.106.75.37
@@ -936,22 +1021,43 @@ proxies:
   sni: hk.catxstar.com
   skip-cert-verify: false
 - type: vless
-  name: 🇸🇬_SG_新加坡_IPV4
-  server: 84.17.38.250
+  name: 🇯🇵_JP_日本_IPV4
+  server: 149.28.29.156
   port: 443
-  uuid: 474c5a2e-96eb-fa3f-6639-cbd2129c8027
+  uuid: aa1a9052-720f-4bb0-92be-21b6baf9f386
   tls: true
-  servername: free-config-bot-development-33s35.lucity.app
-  sni: free-config-bot-development-33s35.lucity.app
-  skip-cert-verify: true
-  client-fingerprint: firefox
+  servername: itunes.apple.com
+  sni: itunes.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: qgCGmxD1lyAEIGZVEk4buAMGcvGvHLl9wGxPQlHCYX0
+    short-id: e535df57
   network: ws
   ws-opts:
-    path: /ws/474c5a2e-96eb-fa3f-6639-cbd2129c8027
+    path: /ws
     headers:
-      Host: free-config-bot-development-33s35.lucity.app
+      Host: itunes.apple.com
 - type: vless
-  name: 🇸🇬_SG_新加坡_IPV4 (2)
+  name: 🇯🇵_JP_日本_IPV4 (2)
+  server: 198.13.53.39
+  port: 443
+  uuid: 8f21c635-ef0a-4b05-8356-f44d463b6e34
+  tls: true
+  servername: itunes.apple.com
+  sni: itunes.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: xxPVgbxguyYuVIml6Eh6ZGcDLO1z0OWKZXfDdUGFv1k
+    short-id: 7a7cc838
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- type: vless
+  name: 🇸🇬_SG_新加坡_IPV4
   server: 139.162.20.241
   port: 443
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
@@ -969,7 +1075,7 @@ proxies:
     headers:
       Host: itunes.apple.com
 - type: vless
-  name: 🇯🇵_JP_日本_IPV4
+  name: 🇯🇵_JP_日本_IPV4 (3)
   server: 139.162.91.239
   port: 443
   uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
@@ -987,7 +1093,7 @@ proxies:
     headers:
       Host: itunes.apple.com
 - type: vless
-  name: 🇸🇬_SG_新加坡_IPV4 (3)
+  name: 🇸🇬_SG_新加坡_IPV4 (2)
   server: 172.104.48.194
   port: 443
   uuid: a28d0884-193d-4591-aa64-8638ba1481ce
@@ -1005,7 +1111,7 @@ proxies:
     headers:
       Host: itunes.apple.com
 - type: vless
-  name: 🇯🇵_JP_日本_IPV4 (2)
+  name: 🇯🇵_JP_日本_IPV4 (4)
   server: 172.104.86.181
   port: 443
   uuid: 010431f3-04f6-4404-a801-b93bf2e3c2b2
@@ -1023,7 +1129,7 @@ proxies:
     headers:
       Host: itunes.apple.com
 - type: vless
-  name: 🇯🇵_JP_日本_IPV4 (3)
+  name: 🇯🇵_JP_日本_IPV4 (5)
   server: 172.105.203.15
   port: 443
   uuid: c8c9b995-b4b9-4915-9c7d-dee94aa733ba
@@ -1041,7 +1147,7 @@ proxies:
     headers:
       Host: itunes.apple.com
 - type: vless
-  name: 🇸🇬_SG_新加坡_IPV4 (4)
+  name: 🇸🇬_SG_新加坡_IPV4 (3)
   server: 139.180.221.53
   port: 443
   uuid: 2b30d0df-6ebe-4aed-9bad-b7c554e35e1d
@@ -1059,7 +1165,7 @@ proxies:
     headers:
       Host: itunes.apple.com
 - type: vless
-  name: 🇯🇵_JP_日本_IPV4 (4)
+  name: 🇯🇵_JP_日本_IPV4 (6)
   server: 45.76.222.108
   port: 443
   uuid: bd95a04e-e3e1-460e-b89d-e9a693d393e0
@@ -1077,7 +1183,7 @@ proxies:
     headers:
       Host: itunes.apple.com
 - type: vless
-  name: 🇯🇵_JP_日本_IPV4 (5)
+  name: 🇯🇵_JP_日本_IPV4 (7)
   server: 139.162.125.126
   port: 443
   uuid: eb6cf336-03bd-4dac-9f2a-3e456389279e
@@ -1094,20 +1200,21 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (13)
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.2fa.cat
+  tls: true
+  servername: xship.top
+  sni: xship.top
+  skip-cert-verify: true
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
-  tls: false
-  type: hysteria2
-- name: 🇺🇸 15@exclavevpn
-  password: yO8pug5XmwkBXBAjleYIaVt
-  port: 443
-  server: 192.255.152.147
-  skip-cert-verify: true
-  sni: 192.255.152.147
   tls: false
   type: hysteria2
 - name: 🇸🇬[www.v2nodes.com] vless-SG-8...
@@ -1149,6 +1256,19 @@ proxies:
       Host: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
     path: /?ed=2560fp=unsafe
 - client-fingerprint: chrome
+  name: 🇭🇰[www.v2nodes.com] vless-HK
+  network: ws
+  port: 443
+  server: 149.104.5.141
+  servername: byyzz.pages.dev
+  tls: true
+  type: vless
+  uuid: 0c492b73-98de-4ad2-bbe9-eb25661d17ac
+  ws-opts:
+    headers:
+      Host: byyzz.pages.dev
+    path: /?proxyip=proxyip.oracle.cmliussss.net
+- client-fingerprint: chrome
   name: 🇯🇵[www.v2nodes.com] vless-JP-1...
   network: ws
   port: 443
@@ -1175,20 +1295,8 @@ proxies:
     headers:
       Host: notls.lukongtou.eu.org
     path: Telegram-WangCai2🇨🇳
-- name: 🇸🇬[www.v2nodes.com] vless-SG-1...
-  network: ws
-  port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: ap-south.862400.xyz
-  tls: true
-  type: vless
-  uuid: 12d32e9b-d41f-4677-aa51-83e21d2837f2
-  ws-opts:
-    headers:
-      Host: ap-south.862400.xyz
-    path: /announcement?ed=2048fp=random
 - client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  name: 🇸🇬[www.v2nodes.com] vless-SG-1...
   port: 8443
   server: 207.148.124.12
   servername: www.bing.com
@@ -1196,7 +1304,7 @@ proxies:
   type: vless
   uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
 - client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
   network: ws
   port: 2096
   server: 139.162.27.96
@@ -1221,45 +1329,6 @@ proxies:
     headers:
       Host: vlsovip.1d.mom
     path: /
-- alpn:
-  - http/1.1
-  name: 🇸🇬[www.v2nodes.com] vless-SG-2...
-  network: ws
-  port: 2096
-  server: 104.25.0.1
-  servername: rainfall0705.cc.cd
-  tls: true
-  type: vless
-  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
-  ws-opts:
-    headers:
-      Host: rainfall0705.cc.cd
-    path: /fp=chrome
-- client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG-2... #1'
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: vp19.1145678.xyz
-  tls: true
-  type: vless
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp19.1145678.xyz
-    path: /images/classify/dh
-- encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #3'
-  network: ws
-  port: 80
-  server: 172.66.170.172
-  tls: false
-  type: vless
-  uuid: e081da45-9fae-4687-9376-f9a6a0dbbe83
-  ws-opts:
-    headers:
-      Host: e33xr.qzz.io
-    path: /id-amz
 - client-fingerprint: chrome
   name: 🇹🇼[www.v2nodes.com] vless-TW-1...
   network: ws
@@ -1286,83 +1355,41 @@ proxies:
   name: '🇰🇷 韩国 | KOR #2'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 43.201.150.9
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 🇭🇰 香港 | HKG 2
-  server: 8.217.1.203
-  port: 8443
-  type: vless
-  uuid: 8b17beac-b143-447d-aa68-14cbb121a602
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38
-    short-id: 0bf55f64
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- client-fingerprint: chrome
-  name: 🇭🇰[www.v2nodes.com] vless-HK
-  network: ws
-  port: 443
-  server: 149.104.5.141
-  servername: byyzz.pages.dev
-  tls: true
-  type: vless
-  uuid: 0c492b73-98de-4ad2-bbe9-eb25661d17ac
-  ws-opts:
-    headers:
-      Host: byyzz.pages.dev
-    path: /?proxyip=proxyip.oracle.cmliussss.net
-- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  fingerprint: 89:61:86:FE:B2:0C:B7:40:31:87:A4:5F:F3:BD:5D:DC:8B:FB:DD:41:9D:77:9D:55:D7:86:18:9D:36:73:1A:69
-  name: '🇰🇷 韩国 | KOR #2 (2)'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
   server: 43.203.123.202
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: HK VLESS-34 | free-nodes
-  type: vless
-  server: 152.175.6.229
-  port: 31884
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  encryption: none
-  tls: true
-  servername: hk010.zestapp778.com
-- name: SG VLESS-36 | free-nodes
-  type: vless
-  server: 43.163.112.174
+- name: 🇭🇰 香港 | HKG
+  server: sclass-c1.catcat321.com
+  port: 20051
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 韩国 | KOR
+  server: 43.200.255.222
   port: 443
-  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
-  encryption: none
-  servername: www.cloudflare.com
-- cipher: rc4-md5
-  name: shadowsocks-1870576255
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 128.1.186.73
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: shadowsocks-1870576345
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 79.110.54.250
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: shadowsocks-1827963705
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
-  type: ss
+  type: hysteria2
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  fingerprint: 89:61:86:FE:B2:0C:B7:40:31:87:A4:5F:F3:BD:5D:DC:8B:FB:DD:41:9D:77:9D:55:D7:86:18:9D:36:73:1A:69
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 2
+  server: 172.64.154.113
+  port: 8443
+  type: vless
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  tls: true
+  servername: freeceshi6.frii.site
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: freeceshi6.frii.site
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -1388,11 +1415,12 @@ proxy-groups:
   - hysteria2-1828371613
   - hysteria2-1853501557
   - hysteria2-1853331471
+  - hysteria2-1887186463
+  - hysteria2-1929114993
   - 🇸🇬214601 | ⚡️Telegram = t.me/v...
-  - 🇯🇵218802 | ⚡️Telegram = t.me/L...
-  - '🇸🇬 新加坡 | SGP #2'
   - 🇭🇰 香港 | HKG 3
   - '🇸🇬 新加坡 | SGP #1'
+  - 🇸🇬 新加坡 | SGP 3
   - trojan-1939846065
   - trojan-1827188340
   - vless-1884061323
@@ -1432,6 +1460,12 @@ proxy-groups:
   - vless-1946593168
   - vless-1853978665
   - vless-1874689087
+  - vless-1853978506
+  - vless-1880616613
+  - vless-1828137269
+  - vless-1844556217
+  - vless-1827147089
+  - vless-1891839087
   - 🇯🇵_日本 (21)
   - 🇭🇰_香港
   - 🇸🇬_新加坡
@@ -1454,40 +1488,33 @@ proxy-groups:
   - 🇹🇼_台湾 (4)
   - 🇹🇼_台湾 (5)
   - 🇭🇰_香港 (2) (2)
-  - 🇸🇬_SG_新加坡_IPV4
-  - 🇸🇬_SG_新加坡_IPV4 (2)
   - 🇯🇵_JP_日本_IPV4
-  - 🇸🇬_SG_新加坡_IPV4 (3)
   - 🇯🇵_JP_日本_IPV4 (2)
+  - 🇸🇬_SG_新加坡_IPV4
   - 🇯🇵_JP_日本_IPV4 (3)
-  - 🇸🇬_SG_新加坡_IPV4 (4)
+  - 🇸🇬_SG_新加坡_IPV4 (2)
   - 🇯🇵_JP_日本_IPV4 (4)
   - 🇯🇵_JP_日本_IPV4 (5)
+  - 🇸🇬_SG_新加坡_IPV4 (3)
+  - 🇯🇵_JP_日本_IPV4 (6)
+  - 🇯🇵_JP_日本_IPV4 (7)
+  - 🇺🇸_US_美国_IPV4 (13)
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
-  - 🇺🇸 15@exclavevpn
   - 🇸🇬[www.v2nodes.com] vless-SG-8...
   - 🇸🇬[www.v2nodes.com] vless-SG
   - 🇸🇬[www.v2nodes.com] vless-SG-7...
+  - 🇭🇰[www.v2nodes.com] vless-HK
   - 🇯🇵[www.v2nodes.com] vless-JP-1...
   - '🇯🇵[www.v2nodes.com] vless-JP-1... #2'
   - 🇸🇬[www.v2nodes.com] vless-SG-1...
   - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
   - 🇸🇬[www.v2nodes.com] vless-SG-4...
-  - 🇸🇬[www.v2nodes.com] vless-SG-2...
-  - '🇸🇬[www.v2nodes.com] vless-SG-2... #1'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #3'
   - 🇹🇼[www.v2nodes.com] vless-TW-1...
   - 日本2|@ripaojiedian
   - '🇰🇷 韩国 | KOR #2'
-  - 🇭🇰 香港 | HKG 2
-  - 🇭🇰[www.v2nodes.com] vless-HK
-  - '🇰🇷 韩国 | KOR #2 (2)'
-  - HK VLESS-34 | free-nodes
-  - SG VLESS-36 | free-nodes
-  - shadowsocks-1870576255
-  - shadowsocks-1870576345
-  - shadowsocks-1827963705
+  - 🇭🇰 香港 | HKG
+  - 🇰🇷 韩国 | KOR
+  - 🇸🇬 新加坡 | SGP 2
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
