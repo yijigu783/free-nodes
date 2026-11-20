@@ -1,6 +1,6 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-20 19:43:34 UTC
-# 节点数: 120 | 来源: free18(496), ermaozi(252), mahdibland(38), nomorewalls(14)
+# 生成时间: 2026-11-20 21:42:43 UTC
+# 节点数: 120 | 来源: free18(496), ermaozi(252), mahdibland(41), nomorewalls(11)
 # 已优选，仅保留评分最高的 120 个节点；完整版见 nodes-full.yaml。
 # 免费公开节点，未实测连通性，仅供应急；勿用于登录重要账号。
 proxies:
@@ -635,6 +635,20 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇭🇰HK-16.163.144.220-0229 | 0.073MB
+  server: sclass-00.catcat321.com
+  port: 20103
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  skip-cert-verify: false
+- name: 🇭🇰HK-16.163.144.220-0556 | 0.048MB
+  server: sclass-c1.catcat321.com
+  port: 20051
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  skip-cert-verify: false
 - name: 🇺🇸US-🚀@VPNine1
   obfs: salamander
   obfs-password: 0dRexOATy4t9J1ckKOLpPy9HrNoU5FmN
@@ -1446,42 +1460,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- type: vless
-  name: 🇺🇸_US_美国_IPV4 (10)
-  server: 172.235.48.245
-  port: 443
-  uuid: c923b26b-a941-456d-8ccc-834f3b4080e0
-  tls: true
-  servername: itunes.apple.com
-  sni: itunes.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: WoN4MfFQoLTmHhsa6cgsjjDtditjn2VfDbp9jd3hbSs
-    short-id: 7378fab7
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- type: vless
-  name: 🇺🇸_US_美国_IPV4 (11)
-  server: 172.233.129.65
-  port: 443
-  uuid: 9d91b606-9117-4f8f-8df7-dda7facf3a57
-  tls: true
-  servername: itunes.apple.com
-  sni: itunes.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Z-RbKKLYcL0Rs6FgAjrrIyN6pAuZjP0JmaP9kLKoER0
-    short-id: 08d9f55d
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1535,6 +1513,8 @@ proxy-groups:
   - 🇯🇵 日本 | JPN
   - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 3
+  - 🇭🇰HK-16.163.144.220-0229 | 0.073MB
+  - 🇭🇰HK-16.163.144.220-0556 | 0.048MB
   - 🇺🇸US-🚀@VPNine1
   - 🇸🇬_新加坡 (6)
   - 🇸🇬_新加坡 (7)
@@ -1604,8 +1584,6 @@ proxy-groups:
   - 🇺🇸_US_美国_IPV4 (7)
   - 🇺🇸_US_美国_IPV4 (8)
   - 🇺🇸_US_美国_IPV4 (9)
-  - 🇺🇸_US_美国_IPV4 (10)
-  - 🇺🇸_US_美国_IPV4 (11)
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
