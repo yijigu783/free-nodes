@@ -1,6 +1,6 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-20 05:41:28 UTC
-# 节点数: 800 | 来源: free18(496), ermaozi(254), mahdibland(39), nomorewalls(11)
+# 生成时间: 2026-11-20 07:43:47 UTC
+# 节点数: 800 | 来源: free18(496), ermaozi(254), mahdibland(36), nomorewalls(14)
 # 完整版，未优选。
 # 免费公开节点，未实测连通性，仅供应急；勿用于登录重要账号。
 proxies:
@@ -7965,116 +7965,120 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇬🇧GB-82.38.31.189-0090 | 103.301MB
-  server: 82.38.31.189
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: CL-64.176.7.205-0093 | 102.206MB
-  server: 64.176.7.205
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
-  skip-cert-verify: false
-- name: 🇺🇸US-167.88.61.52-0134 | 100.607MB
+- name: 🇺🇸US-167.88.61.52-0134 | 128.824MB
   server: 167.88.61.52
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: courses.browseseniorrolesandenhanceyourcareertoday.com
   skip-cert-verify: false
-- name: 🇩🇪DE-193.108.119.15-0252 | 77.527MB
+- name: 🇬🇧GB-146.70.61.37-0128 | 78.633MB
+  server: 146.70.61.37
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇩🇪DE-193.108.119.15-0252 | 78.208MB
   server: 193.108.119.15
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: courses.iloverussia2026.com
   skip-cert-verify: false
-- name: 🇬🇧GB-146.70.61.37-0128 | 49.223MB
-  server: 146.70.61.37
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇨🇦CA-137.184.174.93-0152 | 40.821MB
-  server: 137.184.174.93
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧GB-57.129.132.223-1036 | 31.842MB
-  server: 57.129.132.223
-  port: 80
-  type: vmess
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: CL-64.176.7.205-0093 | 75.9MB
+  server: 64.176.7.205
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 57.129.132.223
-- name: 🇳🇱NL-109.201.152.181-0169 | 30.788MB
+- name: 🇬🇧GB-82.38.31.191-0099 | 72.569MB
+  server: 82.38.31.191
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.189-0090 | 68.653MB
+  server: 82.38.31.189
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.193-0073 | 61.947MB
+  server: 82.38.31.193
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱NL-109.201.152.181-0169 | 45.895MB
   server: 109.201.152.181
   port: 443
   type: ss
   cipher: aes-128-cfb
   password: shadowsocks
-- name: 🇸🇬SG-68.183.227.4-0251 | 21.193MB
-  server: 68.183.227.4
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇰🇷KR-211.178.105.134-0235 | 7.604MB
-  server: 211.178.105.134
-  port: 6123
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷KR-218.237.185.234-0213 | 5.123MB
-  server: p141.panda001.net
-  port: 4652
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇫🇷FR-162.19.192.89-1031 | 2.465MB
-  server: dp8yk.xiaoyan.io
-  port: 16616
-  type: vmess
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇺🇸US-66.163.112.13-0106 | 45.249MB
+  server: 66.163.112.13
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.unlockyourfuturefindyourperfectcareer.com
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-- name: 🇫🇷FR-107.161.160.28-0212 | 1.758MB
+- name: 🇺🇸US-66.163.112.121-0121 | 33.323MB
+  server: 66.163.112.121
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.unlockyourfuturefindyourperfectcareer.com
+  skip-cert-verify: false
+- name: 🇫🇷FR-107.161.160.28-0212 | 7.127MB
   server: 107.161.160.28
   port: 8388
   type: ss
   cipher: aes-256-gcm
   password: itzvpn@321
-- name: 🇪🇸ES-5.188.181.201-5646 | 1.089MB
+- name: 🇪🇸ES-5.188.181.201-7833 | 6.066MB
+  server: 5.188.181.201
+  port: 9040
+  type: ss
+  cipher: aes-256-cfb
+  password: p9z5BVADH2YFs3MN
+- name: 🇰🇷KR-218.237.185.234-0213 | 1.06MB
+  server: p141.panda001.net
+  port: 4652
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇪🇸ES-5.188.181.201-0244 | 0.612MB
+  server: 5.188.181.201
+  port: 9031
+  type: ss
+  cipher: aes-256-cfb
+  password: BwcAUZk8hUFAkDGN
+- name: 🇪🇸ES-5.188.181.201-0243 | 0.608MB
+  server: 5.188.181.201
+  port: 9014
+  type: ss
+  cipher: aes-256-cfb
+  password: KnJGad3FqTvjqbaX
+- name: 🇪🇸ES-5.188.181.201-5646 | 0.608MB
   server: 5.188.181.201
   port: 9041
   type: ss
   cipher: aes-256-cfb
   password: U6qnYRhfyDmn8sgn
-- name: 🇪🇸ES-5.188.181.201-0210 | 1.08MB
+- name: 🇪🇸ES-5.188.181.201-0242 | 0.607MB
   server: 5.188.181.201
-  port: 9011
+  port: 9037
   type: ss
   cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-- name: RELAY-172.67.167.78-1039 | 1.075MB
+  password: TN2YqghxeFDKZfLU
+- name: 🇪🇸ES-5.188.181.201-5649 | 0.585MB
+  server: 5.188.181.201
+  port: 9025
+  type: ss
+  cipher: aes-256-cfb
+  password: XPtzA9sCug3SPR4c
+- name: RELAY-172.67.167.78-1039 | 0.567MB
   server: 172.67.167.78
   port: 8443
   type: vmess
@@ -8088,66 +8092,63 @@ proxies:
     path: /
     headers:
       Host: v2ray1.dozapp.xyz
-- name: 🇪🇸ES-5.188.181.201-5649 | 1.071MB
+- name: 🇪🇸ES-5.188.181.201-0206 | 0.495MB
   server: 5.188.181.201
-  port: 9025
+  port: 9030
   type: ss
   cipher: aes-256-cfb
-  password: XPtzA9sCug3SPR4c
-- name: 🇪🇸ES-5.188.181.201-0245 | 1.065MB
+  password: GeregetR8cvQHzYr
+- name: 🇪🇸ES-5.188.181.201-0208 | 0.492MB
   server: 5.188.181.201
-  port: 9029
+  port: 9027
   type: ss
   cipher: aes-256-cfb
-  password: dU3DSNS8wYPXzEKw
-- name: 🇪🇸ES-5.188.181.201-0200 | 1.055MB
+  password: EXN3S3eQpjE7EJu8
+- name: 🇪🇸ES-5.188.181.201-0197 | 0.489MB
   server: 5.188.181.201
-  port: 9005
+  port: 9003
   type: ss
   cipher: aes-256-cfb
-  password: ZET59LF6DvCC8KVt
-- name: RELAY-104.21.91.53-1052 | 0.585MB
-  server: 104.21.91.53
-  port: 8443
+  password: JdmRK9gMEqFgs8nP
+- name: 🇫🇷FR-162.19.192.89-1031 | 0.42MB
+  server: dp8yk.xiaoyan.io
+  port: 16616
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🇺🇸US-198.98.53.130-0231 | 0.502MB
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+- name: 🇰🇷KR-211.178.105.134-0235 | 0.384MB
+  server: 211.178.105.134
+  port: 6123
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇺🇸US-198.98.53.130-0231 | 0.044MB
   server: 198.98.53.130
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: eDfN7SODQceIOmIAbtJJtK
-- name: RELAY-188.114.96.3-1730 | 0.231MB
-  server: 188.114.96.3
-  port: 8443
+- name: 🇭🇰HK-47.244.120.197-0517 | 0.017MB
+  server: 47.244.120.197
+  port: 36703
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🇭🇰HK-16.106.31.174-0519 | 0.032MB
-  server: sclass-00.catcat321.com
-  port: 20103
-  type: trojan
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  sni: hk.catxstar.com
-  skip-cert-verify: false
-- name: 🇭🇰HK-156.245.232.239-0239 | 0.007MB
+- name: 🇭🇰HK-156.245.232.239-0239 | 0.009MB
   server: 156.245.232.239
   port: 35043
   type: vmess
@@ -8165,38 +8166,37 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇺🇸US-103.224.182.210-7734 | 0.0MB
-  server: ak1784.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-66.163.112.121-0121 | 0.0MB
-  server: 66.163.112.121
+- name: 🇩🇪DE-185.137.157.250-0908 | 0.0MB
+  server: 185.137.157.250
   port: 443
   type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.unlockyourfuturefindyourperfectcareer.com
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  sni: fra250.clientfirewall.click
   skip-cert-verify: false
-- name: 🇺🇸US-66.163.112.13-0106 | 0.0MB
-  server: 66.163.112.13
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: false
-- name: 🇬🇧GB-82.38.31.191-0099 | 0.0MB
-  server: 82.38.31.191
-  port: 8080
+- name: 🇪🇸ES-5.188.181.201-0203 | 0.0MB
+  server: 5.188.181.201
+  port: 9019
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇷🇺RU-48.103.218.241-0191 | 0.0MB
-  server: 48.103.218.241
-  port: 18443
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
+- name: 🇵🇱PL-217.30.10.70-0204 | 0.0MB
+  server: 217.30.10.70
+  port: 9040
   type: ss
-  cipher: aes-256-gcm
-  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
+  cipher: aes-256-cfb
+  password: p9z5BVADH2YFs3MN
+- name: 🇪🇸ES-5.188.181.201-0200 | 0.0MB
+  server: 5.188.181.201
+  port: 9005
+  type: ss
+  cipher: aes-256-cfb
+  password: ZET59LF6DvCC8KVt
+- name: 🇵🇱PL-217.30.10.70-0207 | 0.0MB
+  server: 217.30.10.70
+  port: 9084
+  type: ss
+  cipher: aes-256-cfb
+  password: c3NtHJ5ujV2tGDfj
 - name: RELAY-172.64.229.21-0194 | 0.0MB
   server: 172.64.229.21
   port: 443
@@ -8211,54 +8211,18 @@ proxies:
     path: /
     headers:
       Host: vmess.lbw666.dpdns.org
-- name: 🇪🇸ES-5.188.181.201-0197 | 0.0MB
+- name: 🇷🇺RU-48.103.218.241-0191 | 0.0MB
+  server: 48.103.218.241
+  port: 18443
+  type: ss
+  cipher: aes-256-gcm
+  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
+- name: 🇪🇸ES-5.188.181.201-0210 | 0.0MB
   server: 5.188.181.201
-  port: 9003
+  port: 9011
   type: ss
   cipher: aes-256-cfb
-  password: JdmRK9gMEqFgs8nP
-- name: 🇬🇧GB-82.38.31.193-0073 | 0.0MB
-  server: 82.38.31.193
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇪🇸ES-5.188.181.201-0203 | 0.0MB
-  server: 5.188.181.201
-  port: 9019
-  type: ss
-  cipher: aes-256-cfb
-  password: GA9KzeEgvfxNrgmM
-- name: 🇵🇱PL-217.30.10.70-0204 | 0.0MB
-  server: 217.30.10.70
-  port: 9040
-  type: ss
-  cipher: aes-256-cfb
-  password: p9z5BVADH2YFs3MN
-- name: 🇪🇸ES-5.188.181.201-0206 | 0.0MB
-  server: 5.188.181.201
-  port: 9030
-  type: ss
-  cipher: aes-256-cfb
-  password: GeregetR8cvQHzYr
-- name: 🇵🇱PL-217.30.10.70-0207 | 0.0MB
-  server: 217.30.10.70
-  port: 9084
-  type: ss
-  cipher: aes-256-cfb
-  password: c3NtHJ5ujV2tGDfj
-- name: 🇪🇸ES-5.188.181.201-0208 | 0.0MB
-  server: 5.188.181.201
-  port: 9027
-  type: ss
-  cipher: aes-256-cfb
-  password: EXN3S3eQpjE7EJu8
-- name: 🇬🇧GB-82.38.31.216-0065 | 0.0MB
-  server: 82.38.31.216
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: M3t2ZEQcMGRWBjRa
 - name: 🔵93@oneclickvpnkeys
   obfs: salamander
   obfs-password: c8827ab99e316c5bd414e21afa915ddf
@@ -8373,6 +8337,28 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
+- name: 🇹🇭TH_1|2.0MB/s
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.30
+  type: socks5
+  username: route164JIa2CBPxfy
+- name: 🇫🇷FR_2|2.0MB/s|R002-260618
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇮🇹IT_8|1.5MB/s
+  password: JdFlrZhqHP
+  port: 1080
+  server: 69.16.157.244
+  skip-cert-verify: true
+  type: socks5
+  username: ufCobhydz4Wd
 proxy-groups:
 - name: 节点选择
   type: select
@@ -9127,45 +9113,42 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 3
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 4
-  - 🇬🇧GB-82.38.31.189-0090 | 103.301MB
-  - CL-64.176.7.205-0093 | 102.206MB
-  - 🇺🇸US-167.88.61.52-0134 | 100.607MB
-  - 🇩🇪DE-193.108.119.15-0252 | 77.527MB
-  - 🇬🇧GB-146.70.61.37-0128 | 49.223MB
-  - 🇨🇦CA-137.184.174.93-0152 | 40.821MB
-  - 🇬🇧GB-57.129.132.223-1036 | 31.842MB
-  - 🇳🇱NL-109.201.152.181-0169 | 30.788MB
-  - 🇸🇬SG-68.183.227.4-0251 | 21.193MB
-  - 🇰🇷KR-211.178.105.134-0235 | 7.604MB
-  - 🇰🇷KR-218.237.185.234-0213 | 5.123MB
-  - 🇫🇷FR-162.19.192.89-1031 | 2.465MB
-  - 🇫🇷FR-107.161.160.28-0212 | 1.758MB
-  - 🇪🇸ES-5.188.181.201-5646 | 1.089MB
-  - 🇪🇸ES-5.188.181.201-0210 | 1.08MB
-  - RELAY-172.67.167.78-1039 | 1.075MB
-  - 🇪🇸ES-5.188.181.201-5649 | 1.071MB
-  - 🇪🇸ES-5.188.181.201-0245 | 1.065MB
-  - 🇪🇸ES-5.188.181.201-0200 | 1.055MB
-  - RELAY-104.21.91.53-1052 | 0.585MB
-  - 🇺🇸US-198.98.53.130-0231 | 0.502MB
-  - RELAY-188.114.96.3-1730 | 0.231MB
-  - 🇭🇰HK-16.106.31.174-0519 | 0.032MB
-  - 🇭🇰HK-156.245.232.239-0239 | 0.007MB
+  - 🇺🇸US-167.88.61.52-0134 | 128.824MB
+  - 🇬🇧GB-146.70.61.37-0128 | 78.633MB
+  - 🇩🇪DE-193.108.119.15-0252 | 78.208MB
+  - CL-64.176.7.205-0093 | 75.9MB
+  - 🇬🇧GB-82.38.31.191-0099 | 72.569MB
+  - 🇬🇧GB-82.38.31.189-0090 | 68.653MB
+  - 🇬🇧GB-82.38.31.193-0073 | 61.947MB
+  - 🇳🇱NL-109.201.152.181-0169 | 45.895MB
+  - 🇺🇸US-66.163.112.13-0106 | 45.249MB
+  - 🇺🇸US-66.163.112.121-0121 | 33.323MB
+  - 🇫🇷FR-107.161.160.28-0212 | 7.127MB
+  - 🇪🇸ES-5.188.181.201-7833 | 6.066MB
+  - 🇰🇷KR-218.237.185.234-0213 | 1.06MB
+  - 🇪🇸ES-5.188.181.201-0244 | 0.612MB
+  - 🇪🇸ES-5.188.181.201-0243 | 0.608MB
+  - 🇪🇸ES-5.188.181.201-5646 | 0.608MB
+  - 🇪🇸ES-5.188.181.201-0242 | 0.607MB
+  - 🇪🇸ES-5.188.181.201-5649 | 0.585MB
+  - RELAY-172.67.167.78-1039 | 0.567MB
+  - 🇪🇸ES-5.188.181.201-0206 | 0.495MB
+  - 🇪🇸ES-5.188.181.201-0208 | 0.492MB
+  - 🇪🇸ES-5.188.181.201-0197 | 0.489MB
+  - 🇫🇷FR-162.19.192.89-1031 | 0.42MB
+  - 🇰🇷KR-211.178.105.134-0235 | 0.384MB
+  - 🇺🇸US-198.98.53.130-0231 | 0.044MB
+  - 🇭🇰HK-47.244.120.197-0517 | 0.017MB
+  - 🇭🇰HK-156.245.232.239-0239 | 0.009MB
   - EE-37.252.5.234-4951 | 0.0MB
-  - 🇺🇸US-103.224.182.210-7734 | 0.0MB
-  - 🇺🇸US-66.163.112.121-0121 | 0.0MB
-  - 🇺🇸US-66.163.112.13-0106 | 0.0MB
-  - 🇬🇧GB-82.38.31.191-0099 | 0.0MB
-  - 🇷🇺RU-48.103.218.241-0191 | 0.0MB
-  - RELAY-172.64.229.21-0194 | 0.0MB
-  - 🇪🇸ES-5.188.181.201-0197 | 0.0MB
-  - 🇬🇧GB-82.38.31.193-0073 | 0.0MB
+  - 🇩🇪DE-185.137.157.250-0908 | 0.0MB
   - 🇪🇸ES-5.188.181.201-0203 | 0.0MB
   - 🇵🇱PL-217.30.10.70-0204 | 0.0MB
-  - 🇪🇸ES-5.188.181.201-0206 | 0.0MB
+  - 🇪🇸ES-5.188.181.201-0200 | 0.0MB
   - 🇵🇱PL-217.30.10.70-0207 | 0.0MB
-  - 🇪🇸ES-5.188.181.201-0208 | 0.0MB
-  - 🇬🇧GB-82.38.31.216-0065 | 0.0MB
+  - RELAY-172.64.229.21-0194 | 0.0MB
+  - 🇷🇺RU-48.103.218.241-0191 | 0.0MB
+  - 🇪🇸ES-5.188.181.201-0210 | 0.0MB
   - 🔵93@oneclickvpnkeys
   - 🔵92@oneclickvpnkeys
   - 🔵100@oneclickvpnkeys
@@ -9177,6 +9160,9 @@ proxy-groups:
   - 🇬🇷GR_1|1.6MB/s
   - 🇦🇱AL_1|1.2MB/s|P002-260618
   - 🇬🇷GR_2|2.5MB/s
+  - 🇹🇭TH_1|2.0MB/s
+  - 🇫🇷FR_2|2.0MB/s|R002-260618
+  - 🇮🇹IT_8|1.5MB/s
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
