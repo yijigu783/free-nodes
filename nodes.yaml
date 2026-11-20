@@ -1,51 +1,9 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-20 17:41:51 UTC
-# 节点数: 120 | 来源: free18(496), ermaozi(252), mahdibland(38), nomorewalls(0), v2rayfree(8), au1rxx(6)
+# 生成时间: 2026-11-20 19:43:34 UTC
+# 节点数: 120 | 来源: free18(496), ermaozi(252), mahdibland(38), nomorewalls(14)
 # 已优选，仅保留评分最高的 120 个节点；完整版见 nodes-full.yaml。
 # 免费公开节点，未实测连通性，仅供应急；勿用于登录重要账号。
 proxies:
-- name: hysteria2-1880873612
-  password: 96ab5cd282733fd4c312a61f972f330a
-  port: 443
-  server: vp3.yysyy.online
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-- name: hysteria2-1853341683
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  port: 8443
-  server: 8.211.175.236
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- name: hysteria2-1855771838
-  password: 184cdec28da5a09450803c8debcd2cc9
-  port: 50160
-  server: 138.3.208.26
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-- name: hysteria2-1939845046
-  password: STYyftThFn
-  port: 12765
-  server: freedom.chenlan.top
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-- name: hysteria2-1828371657
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.89
-  skip-cert-verify: true
-  sni: 202.146.222.89
-  type: hysteria2
-- name: hysteria2-1828371633
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.174
-  skip-cert-verify: true
-  sni: 202.146.222.174
-  type: hysteria2
 - name: 🇯🇵 20@exclavevpn
   password: gG1JyjbJgDmEMvdTgcD9wVOS
   port: 443
@@ -78,6 +36,14 @@ proxies:
   server: 18.143.179.74
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 🇸🇬220817 | ⚡️Telegram = t.me/L...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.212.78.215
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
 - type: vless
@@ -669,21 +635,15 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: HK VLESS-37 | free-nodes
-  type: vless
-  server: 152.175.6.229
-  port: 31884
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  encryption: none
-  tls: true
-  servername: hk010.zestapp778.com
-- name: SG VLESS-39 | free-nodes
-  type: vless
-  server: 43.163.112.174
+- name: 🇺🇸US-🚀@VPNine1
+  obfs: salamander
+  obfs-password: 0dRexOATy4t9J1ckKOLpPy9HrNoU5FmN
+  password: HPzKAhFXV5XgEmRSTM33DRuTHeFcB5ON
   port: 443
-  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
-  encryption: none
-  servername: www.cloudflare.com
+  server: 89.117.172.45
+  sni: eth.todsm.com
+  tls: false
+  type: hysteria2
 - type: ss
   name: 🇸🇬_新加坡 (6)
   server: 149.88.107.74
@@ -1414,20 +1374,123 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
+- type: vless
+  name: 🇺🇸_US_美国_IPV4 (6)
+  server: 172.236.241.130
+  port: 443
+  uuid: 21117a67-21c2-4e2a-ba8f-bc49e23b0ae8
+  tls: true
+  servername: itunes.apple.com
+  sni: itunes.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ibi0jOH5SfYhh7ycxdBrqq5oN4ajN3-dNiHKWC2VYWs
+    short-id: 51ecfe9e
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- type: vless
+  name: 🇺🇸_US_美国_IPV4 (7)
+  server: 172.235.37.168
+  port: 443
+  uuid: dbac71f3-ab05-4194-985b-f07088bf1a4a
+  tls: true
+  servername: itunes.apple.com
+  sni: itunes.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1iwAzh_XzSCYWZEVZ0lfczKFd--jXx3coCt5le58gEM
+    short-id: c52e85fe
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- type: vless
+  name: 🇺🇸_US_美国_IPV4 (8)
+  server: 172.236.233.130
+  port: 443
+  uuid: a663dc28-28dc-4f97-9665-6ac215c8e567
+  tls: true
+  servername: itunes.apple.com
+  sni: itunes.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 4wXbhUoSy9s9bGy9PaK18XVTTw3wXkBDjEusiMHaMB4
+    short-id: '53908445'
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- type: vless
+  name: 🇺🇸_US_美国_IPV4 (9)
+  server: 107.191.58.86
+  port: 443
+  uuid: 4444e77e-3d2a-4dc9-bf31-936f038f5570
+  tls: true
+  servername: itunes.apple.com
+  sni: itunes.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ZZwZGoX0Us8t6nLvckDWskC1c25F9rL0_nUXmd8BFxQ
+    short-id: 8dd324c1
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- type: vless
+  name: 🇺🇸_US_美国_IPV4 (10)
+  server: 172.235.48.245
+  port: 443
+  uuid: c923b26b-a941-456d-8ccc-834f3b4080e0
+  tls: true
+  servername: itunes.apple.com
+  sni: itunes.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: WoN4MfFQoLTmHhsa6cgsjjDtditjn2VfDbp9jd3hbSs
+    short-id: 7378fab7
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- type: vless
+  name: 🇺🇸_US_美国_IPV4 (11)
+  server: 172.233.129.65
+  port: 443
+  uuid: 9d91b606-9117-4f8f-8df7-dda7facf3a57
+  tls: true
+  servername: itunes.apple.com
+  sni: itunes.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Z-RbKKLYcL0Rs6FgAjrrIyN6pAuZjP0JmaP9kLKoER0
+    short-id: 08d9f55d
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
 proxy-groups:
 - name: 节点选择
   type: select
   proxies: &id001
-  - hysteria2-1880873612
-  - hysteria2-1853341683
-  - hysteria2-1855771838
-  - hysteria2-1939845046
-  - hysteria2-1828371657
-  - hysteria2-1828371633
   - 🇯🇵 20@exclavevpn
   - 🇸🇬214601 | ⚡️Telegram = t.me/v...
   - '🇭🇰 香港 | HKG #1'
   - '🇸🇬 新加坡 | SGP #1'
+  - 🇸🇬220817 | ⚡️Telegram = t.me/L...
   - 🇸🇬_新加坡 (5)
   - 🇸🇬_新加坡 (9)
   - 🇯🇵_日本
@@ -1472,8 +1535,7 @@ proxy-groups:
   - 🇯🇵 日本 | JPN
   - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 3
-  - HK VLESS-37 | free-nodes
-  - SG VLESS-39 | free-nodes
+  - 🇺🇸US-🚀@VPNine1
   - 🇸🇬_新加坡 (6)
   - 🇸🇬_新加坡 (7)
   - 🇸🇬_新加坡 (8)
@@ -1538,6 +1600,12 @@ proxy-groups:
   - 🇺🇸_US_美国_IPV4 (3)
   - 🇺🇸_US_美国_IPV4 (4)
   - 🇺🇸_US_美国_IPV4 (5)
+  - 🇺🇸_US_美国_IPV4 (6)
+  - 🇺🇸_US_美国_IPV4 (7)
+  - 🇺🇸_US_美国_IPV4 (8)
+  - 🇺🇸_US_美国_IPV4 (9)
+  - 🇺🇸_US_美国_IPV4 (10)
+  - 🇺🇸_US_美国_IPV4 (11)
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
