@@ -1,6 +1,6 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-20 17:41:51 UTC
-# 节点数: 800 | 来源: free18(496), ermaozi(252), mahdibland(38), nomorewalls(0), v2rayfree(8), au1rxx(6)
+# 生成时间: 2026-11-20 19:43:34 UTC
+# 节点数: 800 | 来源: free18(496), ermaozi(252), mahdibland(38), nomorewalls(14)
 # 完整版，未优选。
 # 免费公开节点，未实测连通性，仅供应急；勿用于登录重要账号。
 proxies:
@@ -8143,105 +8143,123 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: M3t2ZEQcMGRWBjRa
-- name: DE VLESS-01 | free-nodes
-  type: vless
-  server: 88.216.74.37
+- name: '@filembad'
+  password: 1d1d36cd-d3d4-0001-ab0e-99c68461d513
   port: 443
-  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
-  encryption: none
-  servername: yw0ein72.dendi.top
-- name: DE VLESS-17 | free-nodes
-  type: vless
-  server: 176.108.245.73
-  port: 443
-  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
-  encryption: none
-  servername: pawuk.belka.tv
-- name: 未知 VLESS-23 | free-nodes
-  type: vless
-  server: 193.111.204.84
-  port: 8443
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  encryption: none
-  servername: assets.study.golangwikito.cfd
-- name: US VLESS-35 | free-nodes
-  type: vless
-  server: 104.160.44.254
-  port: 443
-  uuid: 0a3432cd-74b8-413a-896d-f51492b030bc
-  encryption: none
-  servername: portal.citygrainla.com
-- name: US VLESS-36 | free-nodes
-  type: vless
-  server: 107.172.214.195
-  port: 443
-  uuid: 2af77824-f83d-4f50-9dd0-560bb6e7cd45
-  encryption: none
-  servername: academy.nvidia.com
-- name: HK VLESS-37 | free-nodes
-  type: vless
-  server: 152.175.6.229
-  port: 31884
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  encryption: none
-  tls: true
-  servername: hk010.zestapp778.com
-- name: US VLESS-38 | free-nodes
-  type: vless
-  server: swedenafteraventura.space
-  port: 443
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  encryption: none
-  servername: swedenafteraventura.space
-- name: SG VLESS-39 | free-nodes
-  type: vless
-  server: 43.163.112.174
-  port: 443
-  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
-  encryption: none
-  servername: www.cloudflare.com
-- name: hysteria2-1880873612
-  password: 96ab5cd282733fd4c312a61f972f330a
-  port: 443
-  server: vp3.yysyy.online
+  server: 176.108.240.182
   skip-cert-verify: true
-  sni: ''
+  sni: mwtjc-ru-73sb.my-fade.cloud
+  tls: false
   type: hysteria2
-- name: hysteria2-1853341683
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  port: 8443
-  server: 8.211.175.236
+- name: '@V2rayNPVTConfig #1'
+  password: 49b5c86a-fbfc-0001-82af-171a932d04e7
+  port: 443
+  server: 188.68.216.27
   skip-cert-verify: true
-  sni: bing.com
+  sni: qtuod-ru-56sel.fade.mom
+  tls: false
   type: hysteria2
-- name: hysteria2-1855771838
-  password: 184cdec28da5a09450803c8debcd2cc9
-  port: 50160
-  server: 138.3.208.26
+- auth: 6acdc33a-a25b-0001-8095-c9a252d72fd0
+  fingerprint: b59ce628fb2824c0da7cbfa43e9f93aca2632068ebc29e2367eebe832a1402bf
+  name: '🇱🇻 拉脱维亚 | LVA #1'
+  password: 6acdc33a-a25b-0001-8095-c9a252d72fd0
+  port: 443
+  server: 176.108.244.162
   skip-cert-verify: true
-  sni: ''
+  sni: ohyjf-ru-65sb.my-fade.cloud
+  tls: false
   type: hysteria2
-- name: hysteria2-1939845046
-  password: STYyftThFn
-  port: 12765
-  server: freedom.chenlan.top
+- name: 🇺🇸US-🚀@VPNine1
+  obfs: salamander
+  obfs-password: 0dRexOATy4t9J1ckKOLpPy9HrNoU5FmN
+  password: HPzKAhFXV5XgEmRSTM33DRuTHeFcB5ON
+  port: 443
+  server: 89.117.172.45
+  sni: eth.todsm.com
+  tls: false
+  type: hysteria2
+- name: '@OutlineReleasedKey #6 (2)'
+  obfs: ''
+  obfs-password: ''
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: bl1.nexfile.net
   skip-cert-verify: false
-  sni: ''
+  sni: bl1.nexfile.net
+  tls: false
   type: hysteria2
-- name: hysteria2-1828371657
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- name: '@V2rayNPVTConfig #4'
+  password: be986553-5976-0001-9209-3050366e40d1
   port: 443
-  server: 202.146.222.89
+  server: 185.151.243.186
   skip-cert-verify: true
-  sni: 202.146.222.89
+  sni: piodr-ru-74sel.my-fade.cloud
+  tls: false
   type: hysteria2
-- name: hysteria2-1828371633
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- name: '@OutlineReleasedKey #8 (2)'
+  password: ca60984f-b1f0-4073-bd33-4c75168f749a
   port: 443
-  server: 202.146.222.174
-  skip-cert-verify: true
-  sni: 202.146.222.174
+  server: 45.137.201.211
+  sni: wwe.fantoff.online
+  tls: false
   type: hysteria2
+- name: 🇷🇴RO-🚀@VPNine1
+  password: gf1
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
+  sni: www.amazon.com
+  tls: false
+  type: hysteria2
+- name: 🇸🇬220817 | ⚡️Telegram = t.me/L...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.212.78.215
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '🇫🇷 法国 | FRA #2'
+  network: ws
+  port: 443
+  server: jdxl.cf.090227.xyz
+  servername: notified-rendered-moore-consideration.trycloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11111111-2222-3333-4444-555555555555
+  ws-opts:
+    headers:
+      Host: notified-rendered-moore-consideration.trycloudflare.com
+    path: /tg-jiedianxielou
+- cipher: chacha20-ietf-poly1305
+  name: '🇩🇪 德国 | DEU #1 (2)'
+  password: C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc
+  port: 25565
+  server: static.28.210.29.2.clients.your-server.de
+  type: ss
+  udp: true
+- cipher: 2022-blake3-chacha20-poly1305
+  name: '🇬🇧 英国 | GBR #2'
+  password: vQW1D4AFQOA5o7ii/2LHvvIdcyab7BlOg41DOz8fHOI=
+  port: 61312
+  server: 144.24.224.112
+  type: ss
+  udp: true
+- cipher: 2022-blake3-chacha20-poly1305
+  name: '🇬🇧 英国 | GBR #1 (2)'
+  password: qQiY6ohAB0nZSQtGK8ScY+jaTeJgYxsdERHW0vrXxnY=
+  port: 61312
+  server: 134.65.60.109
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷[www.v2nodes.com] ss-KR-1126...
+  password: '12242'
+  port: 10099
+  server: 115.161.136.145
+  type: ss
 proxy-groups:
 - name: 节点选择
   type: select
@@ -9032,20 +9050,20 @@ proxy-groups:
   - RELAY-172.64.229.21-0194 | 0.0MB
   - 🇷🇺RU-48.103.218.241-0191 | 0.0MB
   - 🇪🇸ES-5.188.181.201-0210 | 0.0MB
-  - DE VLESS-01 | free-nodes
-  - DE VLESS-17 | free-nodes
-  - 未知 VLESS-23 | free-nodes
-  - US VLESS-35 | free-nodes
-  - US VLESS-36 | free-nodes
-  - HK VLESS-37 | free-nodes
-  - US VLESS-38 | free-nodes
-  - SG VLESS-39 | free-nodes
-  - hysteria2-1880873612
-  - hysteria2-1853341683
-  - hysteria2-1855771838
-  - hysteria2-1939845046
-  - hysteria2-1828371657
-  - hysteria2-1828371633
+  - '@filembad'
+  - '@V2rayNPVTConfig #1'
+  - '🇱🇻 拉脱维亚 | LVA #1'
+  - 🇺🇸US-🚀@VPNine1
+  - '@OutlineReleasedKey #6 (2)'
+  - '@V2rayNPVTConfig #4'
+  - '@OutlineReleasedKey #8 (2)'
+  - 🇷🇴RO-🚀@VPNine1
+  - 🇸🇬220817 | ⚡️Telegram = t.me/L...
+  - '🇫🇷 法国 | FRA #2'
+  - '🇩🇪 德国 | DEU #1 (2)'
+  - '🇬🇧 英国 | GBR #2'
+  - '🇬🇧 英国 | GBR #1 (2)'
+  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
