@@ -1,5 +1,5 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-20 09:41:30 UTC
+# 生成时间: 2026-11-20 11:41:56 UTC
 # 节点数: 800 | 来源: free18(496), ermaozi(254), mahdibland(36), nomorewalls(14)
 # 完整版，未优选。
 # 免费公开节点，未实测连通性，仅供应急；勿用于登录重要账号。
@@ -8223,6 +8223,22 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: M3t2ZEQcMGRWBjRa
+- name: 🇯🇵 20@exclavevpn
+  password: gG1JyjbJgDmEMvdTgcD9wVOS
+  port: 443
+  server: 35.221.91.82
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 🇸🇪220314 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: yew4ada1rrbq11fq
+  password: yjg6ygy6u97387j2
+  port: 31848
+  server: tjzx49io.zibayeman.com
+  sni: tjzx49io.zibayeman.com
+  tls: false
+  type: hysteria2
 - name: 🔵93@oneclickvpnkeys
   obfs: salamander
   obfs-password: c8827ab99e316c5bd414e21afa915ddf
@@ -8249,17 +8265,22 @@ proxies:
   sni: 13.55.52.44
   tls: false
   type: hysteria2
+- client-fingerprint: qq
+  name: 🇪🇪[www.v2nodes.com] vless-EE-1...
+  network: tcp
+  port: 443
+  server: 136.148.83.69
+  servername: szqbx-ru-77dc.my-fade.cloud
+  tls: true
+  type: vless
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  ws-opts:
+    path: /
 - cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1545...
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 51.79.49.116
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: '🇩🇪[www.v2nodes.com] ss-DE-1623... #1'
-  password: uou5NTq+xna9PBIG+8jtSSyQ6idxiXZgeK+Uw52qopY=
-  port: 59924
-  server: 130.61.145.251
   type: ss
 - client-fingerprint: chrome
   encryption: none
@@ -8343,22 +8364,6 @@ proxies:
   server: 103.14.164.30
   type: socks5
   username: route164JIa2CBPxfy
-- name: 🇫🇷FR_2|2.0MB/s|R002-260618
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇮🇹IT_8|1.5MB/s
-  password: JdFlrZhqHP
-  port: 1080
-  server: 69.16.157.244
-  skip-cert-verify: true
-  type: socks5
-  username: ufCobhydz4Wd
 proxy-groups:
 - name: 节点选择
   type: select
@@ -9149,11 +9154,13 @@ proxy-groups:
   - RELAY-172.64.229.21-0194 | 0.0MB
   - 🇷🇺RU-48.103.218.241-0191 | 0.0MB
   - 🇪🇸ES-5.188.181.201-0210 | 0.0MB
+  - 🇯🇵 20@exclavevpn
+  - 🇸🇪220314 | ⚡️Telegram = t.me/L...
   - 🔵93@oneclickvpnkeys
   - 🔵92@oneclickvpnkeys
   - 🔵100@oneclickvpnkeys
+  - 🇪🇪[www.v2nodes.com] vless-EE-1...
   - 🇨🇦[www.v2nodes.com] ss-CA-1545...
-  - '🇩🇪[www.v2nodes.com] ss-DE-1623... #1'
   - 🇳🇱NL_2|2.1MB/s
   - 🇪🇸ES_1|1.1MB/s
   - 🇩🇪DE_8|1.2MB/s|P002-260618
@@ -9161,8 +9168,6 @@ proxy-groups:
   - 🇦🇱AL_1|1.2MB/s|P002-260618
   - 🇬🇷GR_2|2.5MB/s
   - 🇹🇭TH_1|2.0MB/s
-  - 🇫🇷FR_2|2.0MB/s|R002-260618
-  - 🇮🇹IT_8|1.5MB/s
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
