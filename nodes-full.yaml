@@ -1,6 +1,6 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-21 01:41:37 UTC
-# 节点数: 800 | 来源: free18(496), ermaozi(256), mahdibland(39), nomorewalls(0), v2rayfree(9)
+# 生成时间: 2026-11-21 03:45:49 UTC
+# 节点数: 800 | 来源: free18(496), ermaozi(256), mahdibland(39), nomorewalls(9)
 # 完整版，未优选。
 # 中国延迟为 Globalping 实测中位数（ICMP，未测代理协议本身）；仅供应急；勿用于登录重要账号。
 proxies:
@@ -8371,74 +8371,114 @@ proxies:
     path: /
     headers:
       Host: wx.adbse.xyz
-- name: DE VLESS-12 | free-nodes
-  type: vless
-  server: chess.com
-  port: 443
-  uuid: 0280c276-641b-49af-b699-4931c30ac137
-  encryption: none
+- name: '🇸🇬[www.v2nodes.com] vless-SG #1 (2)'
+  network: ws
+  port: 2083
+  server: 27.50.49.154
+  servername: proxy-34l.pages.dev
   tls: true
-  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
-- name: 未知 VLESS-13 | free-nodes
   type: vless
-  server: pebble.gerqix.online
-  port: 443
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-  encryption: none
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  ws-opts:
+    headers:
+      Host: proxy-34l.pages.dev
+    path: /fp=chrome
+- name: '🏳[www.v2nodes.com] vless- #10'
+  network: ws
+  port: 8443
+  server: 172.64.154.113
+  servername: freeceshi6.frii.site
   tls: true
-  servername: windlass.gerqix.online
-  network: grpc
-  grpc-opts:
-    grpc-service-name: glush.de2.v1
-- name: GB VLESS-14 | free-nodes
   type: vless
-  server: 161.35.37.106
-  port: 443
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
-  encryption: none
-- name: DE VLESS-18 | free-nodes
-  type: vless
-  server: 104.18.139.67
-  port: 443
-  uuid: 0280c276-641b-49af-b699-4931c30ac137
-  encryption: none
-  tls: true
-  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
-- name: 未知 VLESS-20 | free-nodes
-  type: vless
-  server: 31.6.1.115
-  port: 443
-  uuid: 0f2dc4af-951f-4690-922e-07c6e8bab26a
-  encryption: none
-  tls: true
-  servername: cdn.winter-jam.site
-- name: DE SS-21 | free-nodes
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  ws-opts:
+    headers:
+      Host: freeceshi6.frii.site
+    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇺🇸[www.v2nodes.com] ss-US-1623... (2)
+  password: EP/0kIjk18c43tfkqeJqdVQm8lGArteYkhhwgBJ3q70=
+  port: 50356
+  server: 161.153.38.61
   type: ss
-  server: 3.8.210.56
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Cg2Dw4OhdBZhqbeO9ZTA3g%2FGk%2FAvsrYZGhAJeGnQIx4%3D
-- name: 未知 TROJAN-23 | free-nodes
+- name: '🇦🇪[www.v2nodes.com] trojan-AE-... #1'
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20123
+  server: sclass-00.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
   type: trojan
-  server: 95.143.196.32
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    path:
+    - /
+  name: 🇬🇧GB_1|2.7MB/s
+  network: http
   port: 443
-  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
-  servername: connect-se.mimowhat.online
-- name: DE VLESS-26 | free-nodes
+  server: 161.35.37.106
   type: vless
-  server: 104.18.137.67
+  udp: true
+  uuid: 40992c2a-513e-4837-9594-23411fd42afd
+  xudp: true
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    path:
+    - /
+  name: 🇳🇱NL_2|2.2MB/s
+  network: http
   port: 443
-  uuid: 0280c276-641b-49af-b699-4931c30ac137
-  encryption: none
+  server: 146.190.21.145
+  type: vless
+  udp: true
+  uuid: 40992c2a-513e-4837-9594-23411fd42afd
+  xudp: true
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 🇩🇪DE_3|2.3MB/s
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: russia.com
+  skip-cert-verify: false
+  sni: kargar001.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /tr?ed=2560
+- encryption: none
+  name: 🇩🇪DE_13|2.9MB/s
+  network: ws
+  port: 80
+  server: 104.27.88.172
+  servername: web-app-nr6wpa.app-tp57xz.workers.dev
+  type: vless
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
+  ws-opts:
+    headers:
+      Host: web-app-nr6wpa.app-tp57xz.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /api/ws
+  xudp: true
+- name: 🇩🇪DE_10|3.1MB/s|P002-260618
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
-  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
-- name: US VLESS-37 | free-nodes
-  type: vless
-  server: 104.160.44.254
-  port: 443
-  uuid: 0a3432cd-74b8-413a-896d-f51492b030bc
-  encryption: none
-  servername: portal.citygrainla.com
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -9234,15 +9274,15 @@ proxy-groups:
   - 🇭🇰HK-167.179.32.53-0063 | 0.0MB
   - 🇭🇰HK-8.210.119.159-0062 | 0.0MB
   - 🇨🇳TW-220.130.80.179-0061 | 0.0MB
-  - DE VLESS-12 | free-nodes
-  - 未知 VLESS-13 | free-nodes
-  - GB VLESS-14 | free-nodes
-  - DE VLESS-18 | free-nodes
-  - 未知 VLESS-20 | free-nodes
-  - DE SS-21 | free-nodes
-  - 未知 TROJAN-23 | free-nodes
-  - DE VLESS-26 | free-nodes
-  - US VLESS-37 | free-nodes
+  - '🇸🇬[www.v2nodes.com] vless-SG #1 (2)'
+  - '🏳[www.v2nodes.com] vless- #10'
+  - 🇺🇸[www.v2nodes.com] ss-US-1623... (2)
+  - '🇦🇪[www.v2nodes.com] trojan-AE-... #1'
+  - 🇬🇧GB_1|2.7MB/s
+  - 🇳🇱NL_2|2.2MB/s
+  - 🇩🇪DE_3|2.3MB/s
+  - 🇩🇪DE_13|2.9MB/s
+  - 🇩🇪DE_10|3.1MB/s|P002-260618
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
