@@ -1,5 +1,5 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-21 17:42:34 UTC
+# 生成时间: 2026-11-21 19:42:01 UTC
 # 节点数: 800 | 来源: free18(615), ermaozi(174), mahdibland(11)
 # 完整版，未优选。
 # 中国延迟为 Globalping 实测中位数（ICMP，未测代理协议本身）；仅供应急；勿用于登录重要账号。
@@ -8797,67 +8797,55 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸US-172.111.36.123-0159 | 119.513MB
-  server: 172.111.36.123
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.22.17.219-0111 | 83.845MB
-  server: 38.22.17.219
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇬🇧GB-146.70.61.37-0119 | 82.501MB
-  server: 146.70.61.37
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇳🇱NL-109.201.152.181-0141 | 80.689MB
-  server: 109.201.152.181
-  port: 443
-  type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
-- name: 🇬🇧GB-82.38.31.186-0079 | 78.05MB
+- name: 🇬🇧GB-82.38.31.186-0165 | 103.857MB
   server: 82.38.31.186
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇸🇬SG-68.183.227.4-0158 | 73.937MB
-  server: 68.183.227.4
-  port: 8080
+- name: 🇺🇸US-172.111.36.123-0124 | 96.337MB
+  server: 172.111.36.123
+  port: 19999
   type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇨🇦CA-137.184.174.93-0130 | 67.139MB
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-38.22.17.219-0148 | 70.065MB
+  server: 38.22.17.219
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇦CA-137.184.174.93-0184 | 54.857MB
   server: 137.184.174.93
   port: 8080
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧GB-82.38.31.61-0147 | 31.772MB
+- name: 🇳🇱NL-109.201.152.181-0162 | 26.372MB
+  server: 109.201.152.181
+  port: 443
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
+- name: 🇸🇬SG-68.183.227.4-0174 | 25.864MB
+  server: 68.183.227.4
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧GB-82.38.31.61-0218 | 20.855MB
   server: 82.38.31.61
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇬🇧GB-178.83.185.156-0148 | 20.045MB
+- name: 🇬🇧GB-178.83.185.156-0227 | 20.155MB
   server: 178.83.185.156
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇰🇷KR-218.237.185.234-0180 | 17.517MB
-  server: p141.panda001.net
-  port: 4652
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷KR-43.203.188.27-0186 | 17.37MB
+- name: 🇰🇷KR-43.202.252.234-0234 | 15.339MB
   server: dp8yk.xiaoyan.io
   port: 16616
   type: vmess
@@ -8871,6 +8859,18 @@ proxies:
     path: /
     headers:
       Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+- name: 🇰🇷KR-211.178.105.134-0245 | 9.379MB
+  server: 211.178.105.134
+  port: 6123
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇵🇱PL-217.30.10.70-5409 | 6.174MB
+  server: 217.30.10.70
+  port: 9057
+  type: ss
+  cipher: aes-256-cfb
+  password: wjTugX3ZtHMB9c3Z
 proxy-groups:
 - name: 节点选择
   type: select
@@ -9664,17 +9664,17 @@ proxy-groups:
   - 🇸🇪 瑞典 | SWE 3
   - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸US-172.111.36.123-0159 | 119.513MB
-  - 🇺🇸US-38.22.17.219-0111 | 83.845MB
-  - 🇬🇧GB-146.70.61.37-0119 | 82.501MB
-  - 🇳🇱NL-109.201.152.181-0141 | 80.689MB
-  - 🇬🇧GB-82.38.31.186-0079 | 78.05MB
-  - 🇸🇬SG-68.183.227.4-0158 | 73.937MB
-  - 🇨🇦CA-137.184.174.93-0130 | 67.139MB
-  - 🇬🇧GB-82.38.31.61-0147 | 31.772MB
-  - 🇬🇧GB-178.83.185.156-0148 | 20.045MB
-  - 🇰🇷KR-218.237.185.234-0180 | 17.517MB
-  - 🇰🇷KR-43.203.188.27-0186 | 17.37MB
+  - 🇬🇧GB-82.38.31.186-0165 | 103.857MB
+  - 🇺🇸US-172.111.36.123-0124 | 96.337MB
+  - 🇺🇸US-38.22.17.219-0148 | 70.065MB
+  - 🇨🇦CA-137.184.174.93-0184 | 54.857MB
+  - 🇳🇱NL-109.201.152.181-0162 | 26.372MB
+  - 🇸🇬SG-68.183.227.4-0174 | 25.864MB
+  - 🇬🇧GB-82.38.31.61-0218 | 20.855MB
+  - 🇬🇧GB-178.83.185.156-0227 | 20.155MB
+  - 🇰🇷KR-43.202.252.234-0234 | 15.339MB
+  - 🇰🇷KR-211.178.105.134-0245 | 9.379MB
+  - 🇵🇱PL-217.30.10.70-5409 | 6.174MB
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
