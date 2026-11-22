@@ -1,7 +1,7 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-21 23:42:03 UTC
-# 节点数: 41 | 来源: free18(615), ermaozi(174), mahdibland(11)
-# 已优选：仅保留港台新日 + hysteria2/vless/trojan 的 41 个节点，按中国延迟实测排序；完整版见 nodes-full.yaml。
+# 生成时间: 2026-11-22 01:42:16 UTC
+# 节点数: 37 | 来源: free18(615), ermaozi(185)
+# 已优选：仅保留港台新日 + hysteria2/vless/trojan 的 37 个节点，按中国延迟实测排序；完整版见 nodes-full.yaml。
 # 中国延迟为 Globalping 实测中位数（ICMP，未测代理协议本身）；仅供应急；勿用于登录重要账号。
 proxies:
 - type: vless
@@ -86,152 +86,6 @@ proxies:
     headers:
       Host: notls.lukongtou.eu.org
     path: Telegram-WangCai2🇨🇳
-- name: '🇭🇰 香港 | HKG #4'
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20103
-  server: sclass-00.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- type: vless
-  name: 🇯🇵_JP_日本_IPV4 (7)
-  server: 45.76.222.108
-  port: 443
-  uuid: bd95a04e-e3e1-460e-b89d-e9a693d393e0
-  tls: true
-  servername: itunes.apple.com
-  sni: itunes.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: -_YzpVlKrn08il_kQdHxHTvJyWYAdetWN_IFRtvPgmE
-    short-id: b5c85d2d
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- type: vless
-  name: 🇯🇵_JP_日本_IPV4 (6)
-  server: 172.105.203.15
-  port: 443
-  uuid: c8c9b995-b4b9-4915-9c7d-dee94aa733ba
-  tls: true
-  servername: itunes.apple.com
-  sni: itunes.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA
-    short-id: 0784b134
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 🇸🇬[www.v2nodes.com] vless-SG-9...
-  network: ws
-  port: 8080
-  server: 104.26.13.31
-  servername: ip.sb
-  tls: false
-  type: vless
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  ws-opts:
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-    path: /
-- type: vless
-  name: 🇯🇵_JP_日本_IPV4 (3)
-  server: 198.13.53.39
-  port: 443
-  uuid: 8f21c635-ef0a-4b05-8356-f44d463b6e34
-  tls: true
-  servername: itunes.apple.com
-  sni: itunes.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: xxPVgbxguyYuVIml6Eh6ZGcDLO1z0OWKZXfDdUGFv1k
-    short-id: 7a7cc838
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- type: vless
-  name: 🇸🇬_SG_新加坡_IPV4 (2)
-  server: 139.180.221.53
-  port: 443
-  uuid: 2b30d0df-6ebe-4aed-9bad-b7c554e35e1d
-  tls: true
-  servername: itunes.apple.com
-  sni: itunes.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: plfXwkb-ewI6iibJBTRmPnf8eqPId1BfdArMIm3_mB4
-    short-id: 2f6f6f87
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- type: vless
-  name: 🇯🇵_JP_日本_IPV4 (5)
-  server: 172.104.86.181
-  port: 443
-  uuid: 010431f3-04f6-4404-a801-b93bf2e3c2b2
-  tls: true
-  servername: itunes.apple.com
-  sni: itunes.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk
-    short-id: c8559ca1
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- type: vless
-  name: 🇸🇬_SG_新加坡_IPV4
-  server: 139.162.20.241
-  port: 443
-  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
-  tls: true
-  servername: itunes.apple.com
-  sni: itunes.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
-    short-id: 640c807d
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- type: vless
-  name: 🇯🇵_JP_日本_IPV4 (4)
-  server: 139.162.91.239
-  port: 443
-  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
-  tls: true
-  servername: itunes.apple.com
-  sni: itunes.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
-    short-id: 7c6d6833
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - type: vless
   name: 🇸🇬_新加坡 (21)
   server: 43.170.8.95
@@ -248,24 +102,6 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- type: vless
-  name: 🇯🇵_JP_日本_IPV4 (8)
-  server: 139.162.125.126
-  port: 443
-  uuid: eb6cf336-03bd-4dac-9f2a-3e456389279e
-  tls: true
-  servername: itunes.apple.com
-  sni: itunes.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mMLchVbQzhQ2bGV6wkg1LP5Q7eqL2hCVHHMT0B03dwg
-    short-id: bd6e3e70
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - type: hysteria2
   name: 🇭🇰_香港 (2)
   server: 43.103.2.53
@@ -277,6 +113,13 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: 9veAh9pTbrAfDwM1fIYI
+- name: 🇯🇵 20@exclavevpn
+  password: gG1JyjbJgDmEMvdTgcD9wVOS
+  port: 443
+  server: 35.221.91.82
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - name: 🇸🇬214601 | ⚡️Telegram = t.me/v...
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
@@ -290,11 +133,29 @@ proxies:
   name: '🇸🇬 新加坡 | SGP #1'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 13.212.60.244
+  server: 54.255.214.149
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 🇯🇵 日本 | JPN 2
+  server: jpk.wentibuxiaobuda.xyz
+  port: 443
+  type: hysteria2
+  password: 36187bef1c708c82fd4099b9d70116ffd8c0f1f5bfd19cbb319eeb67899714f6
+  auth: 36187bef1c708c82fd4099b9d70116ffd8c0f1f5bfd19cbb319eeb67899714f6
+  sni: jpk.wentibuxiaobuda.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 2
+  server: 54.255.168.93
+  port: 443
+  type: hysteria2
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
+  sni: www.bing.com
+  skip-cert-verify: true
 - type: vless
   name: 🇸🇬_新加坡 (22)
   server: 27.50.48.13
@@ -481,24 +342,6 @@ proxies:
   servername: xinbulongdong.com
   sni: xinbulongdong.com
   skip-cert-verify: true
-- type: vless
-  name: 🇯🇵_JP_日本_IPV4 (2)
-  server: 149.28.29.156
-  port: 443
-  uuid: aa1a9052-720f-4bb0-92be-21b6baf9f386
-  tls: true
-  servername: itunes.apple.com
-  sni: itunes.apple.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: qgCGmxD1lyAEIGZVEk4buAMGcvGvHLl9wGxPQlHCYX0
-    short-id: e535df57
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - name: 🇭🇰[www.v2nodes.com] vless-HK-4...
   network: ws
   port: 443
@@ -545,6 +388,19 @@ proxies:
     headers:
       Host: ty986gfazs.cainiaohub.xyz
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1|2.4MB/s
+  network: tcp
+  port: 443
+  server: 23.27.11.86
+  servername: jp.burmy.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e8a346c2-e14c-4f82-876f-367dc19ee541
+  xudp: true
 - name: 🇭🇰 香港 | HKG
   server: 8.217.1.203
   port: 8443
@@ -559,6 +415,37 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇯🇵 日本 | JPN
+  server: 156.246.93.237
+  port: 17443
+  type: trojan
+  password: LDSLDq9XlM4-92pvTPOUuklMb99BLOCrdyejsupEca4
+  sni: jpk.wentibuxiaobuda.xyz
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP
+  server: 138.2.86.205
+  port: 443
+  type: vless
+  uuid: b2d4f6a8-1c3e-4a5b-9d7f-2e4a6c8b0d1f
+  tls: true
+  packet-encoding: xudp
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /7b9977b2af9da85fa86adc065c362efe
+- name: 🇸🇬 新加坡 | SGP 3
+  server: 168.107.79.37
+  port: 443
+  type: vless
+  uuid: c5e7a9b1-3d5f-4a6c-8b0d-2f4a6c8e0b2d
+  tls: true
+  packet-encoding: xudp
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /7b9977b2af9da85fa86adc065c362efe
 proxy-groups:
 - name: 节点选择
   type: select
@@ -569,20 +456,13 @@ proxy-groups:
   - 🇹🇼_台湾 (8)
   - 日本2|@ripaojiedian
   - '🇯🇵[www.v2nodes.com] vless-JP-1... #2'
-  - '🇭🇰 香港 | HKG #4'
-  - 🇯🇵_JP_日本_IPV4 (7)
-  - 🇯🇵_JP_日本_IPV4 (6)
-  - 🇸🇬[www.v2nodes.com] vless-SG-9...
-  - 🇯🇵_JP_日本_IPV4 (3)
-  - 🇸🇬_SG_新加坡_IPV4 (2)
-  - 🇯🇵_JP_日本_IPV4 (5)
-  - 🇸🇬_SG_新加坡_IPV4
-  - 🇯🇵_JP_日本_IPV4 (4)
   - 🇸🇬_新加坡 (21)
-  - 🇯🇵_JP_日本_IPV4 (8)
   - 🇭🇰_香港 (2)
+  - 🇯🇵 20@exclavevpn
   - 🇸🇬214601 | ⚡️Telegram = t.me/v...
   - '🇸🇬 新加坡 | SGP #1'
+  - 🇯🇵 日本 | JPN 2
+  - 🇸🇬 新加坡 | SGP 2
   - 🇸🇬_新加坡 (22)
   - 🇸🇬_新加坡 (23)
   - 🇸🇬_新加坡 (24)
@@ -598,12 +478,15 @@ proxy-groups:
   - 🇸🇬_新加坡 (19)
   - 🇸🇬_新加坡 (20)
   - 🇯🇵_JP_日本_IPV4
-  - 🇯🇵_JP_日本_IPV4 (2)
   - 🇭🇰[www.v2nodes.com] vless-HK-4...
   - 🇸🇬[www.v2nodes.com] vless-SG-1...
   - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
   - 🇹🇼[www.v2nodes.com] vless-TW-1...
+  - 🇯🇵JP_1|2.4MB/s
   - 🇭🇰 香港 | HKG
+  - 🇯🇵 日本 | JPN
+  - 🇸🇬 新加坡 | SGP
+  - 🇸🇬 新加坡 | SGP 3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
