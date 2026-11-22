@@ -1,7 +1,7 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-22 15:41:50 UTC
-# 节点数: 35 | 来源: free18(56), ermaozi(257), mahdibland(134), nomorewalls(0), v2rayfree(9), au1rxx(344)
-# 已优选：仅保留港台新日 + hysteria2/vless/trojan 的 35 个节点，按中国延迟实测排序；完整版见 nodes-full.yaml。
+# 生成时间: 2026-11-22 17:41:30 UTC
+# 节点数: 36 | 来源: free18(56), ermaozi(257), mahdibland(134), nomorewalls(0), v2rayfree(6), au1rxx(347)
+# 已优选：仅保留港台新日 + hysteria2/vless/trojan 的 36 个节点，按中国延迟实测排序；完整版见 nodes-full.yaml。
 # 中国延迟为 Globalping 实测中位数（ICMP，未测代理协议本身）；仅供应急；勿用于登录重要账号。
 proxies:
 - name: 🇭🇰HK-18.163.61.231-0248 | 0.024MB
@@ -438,7 +438,14 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: HK VLESS-22 | free-nodes
+- name: SG VLESS-04 | free-nodes
+  type: vless
+  server: win2loxfde0203.gggrelay.org
+  port: 64006
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  encryption: none
+  servername: www.lamer.com.sg
+- name: HK VLESS-17 | free-nodes
   type: vless
   server: 152.175.6.229
   port: 31884
@@ -446,7 +453,7 @@ proxies:
   encryption: none
   tls: true
   servername: hk010.zestapp778.com
-- name: SG VLESS-24 | free-nodes
+- name: SG VLESS-19 | free-nodes
   type: vless
   server: 43.163.112.174
   port: 443
@@ -490,8 +497,9 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP 3
   - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - HK VLESS-22 | free-nodes
-  - SG VLESS-24 | free-nodes
+  - SG VLESS-04 | free-nodes
+  - HK VLESS-17 | free-nodes
+  - SG VLESS-19 | free-nodes
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
