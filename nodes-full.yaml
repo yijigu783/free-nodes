@@ -1,6 +1,6 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-22 15:41:50 UTC
-# 节点数: 800 | 来源: free18(56), ermaozi(257), mahdibland(134), nomorewalls(0), v2rayfree(9), au1rxx(344)
+# 生成时间: 2026-11-22 17:41:30 UTC
+# 节点数: 800 | 来源: free18(56), ermaozi(257), mahdibland(134), nomorewalls(0), v2rayfree(6), au1rxx(347)
 # 完整版，未优选。
 # 中国延迟为 Globalping 实测中位数（ICMP，未测代理协议本身）；仅供应急；勿用于登录重要账号。
 proxies:
@@ -4216,56 +4216,28 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: FoOiGlkAA9yPEGP
-- name: DE VLESS-02 | free-nodes
+- name: SG VLESS-04 | free-nodes
   type: vless
-  server: 172.67.67.89
-  port: 443
-  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
+  server: win2loxfde0203.gggrelay.org
+  port: 64006
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   encryption: none
-  tls: true
-  servername: 1.proxy2.us.ci.
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 1.proxy2.us.ci.
-- name: 未知 VLESS-07 | free-nodes
-  type: vless
-  server: 0ef47cx.se4.h1clayd.click
-  port: 443
-  uuid: f15a2e25-6859-4bcc-b4c4-a14bb8ae0fbb
-  encryption: none
-  servername: 0ef47cx.se4.h1clayd.click
-- name: FR VLESS-08 | free-nodes
-  type: vless
-  server: 185.133.35.86
-  port: 443
-  uuid: d795a9ec-5ed0-4309-ba6c-edc09b818669
-  encryption: none
-  tls: true
-  servername: mamafrance.baklajann.ru
-- name: 未知 VLESS-09 | free-nodes
-  type: vless
-  server: r4.pythonmakemigreat.wiki
-  port: 8443
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  encryption: none
-  servername: assets.study.golangwikito.cfd
-- name: US VLESS-20 | free-nodes
+  servername: www.lamer.com.sg
+- name: US VLESS-15 | free-nodes
   type: vless
   server: 104.160.44.254
   port: 443
   uuid: 0a3432cd-74b8-413a-896d-f51492b030bc
   encryption: none
   servername: portal.citygrainla.com
-- name: US VLESS-21 | free-nodes
+- name: US VLESS-16 | free-nodes
   type: vless
   server: 107.172.214.195
   port: 443
   uuid: 2af77824-f83d-4f50-9dd0-560bb6e7cd45
   encryption: none
   servername: academy.nvidia.com
-- name: HK VLESS-22 | free-nodes
+- name: HK VLESS-17 | free-nodes
   type: vless
   server: 152.175.6.229
   port: 31884
@@ -4273,14 +4245,14 @@ proxies:
   encryption: none
   tls: true
   servername: hk010.zestapp778.com
-- name: US VLESS-23 | free-nodes
+- name: US VLESS-18 | free-nodes
   type: vless
   server: swedenafteraventura.space
   port: 443
   uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
   encryption: none
   servername: swedenafteraventura.space
-- name: SG VLESS-24 | free-nodes
+- name: SG VLESS-19 | free-nodes
   type: vless
   server: 43.163.112.174
   port: 443
@@ -7687,6 +7659,30 @@ proxies:
   sni: www.cordweave.com
   type: trojan
   udp: true
+- name: trojan-1934984141
+  password: humanity
+  port: 443
+  server: 104.19.95.153
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1858673309
+  password: humanity
+  port: 443
+  server: 104.18.8.83
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1933715118
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 64.176.163.182
+  skip-cert-verify: true
+  sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -8138,15 +8134,12 @@ proxy-groups:
   - RELAY-198.41.203.1-0078 | 0.0MB
   - RELAY-198.41.203.3-0077 | 0.0MB
   - 🇺🇸US-38.114.114.49-0076 | 0.0MB
-  - DE VLESS-02 | free-nodes
-  - 未知 VLESS-07 | free-nodes
-  - FR VLESS-08 | free-nodes
-  - 未知 VLESS-09 | free-nodes
-  - US VLESS-20 | free-nodes
-  - US VLESS-21 | free-nodes
-  - HK VLESS-22 | free-nodes
-  - US VLESS-23 | free-nodes
-  - SG VLESS-24 | free-nodes
+  - SG VLESS-04 | free-nodes
+  - US VLESS-15 | free-nodes
+  - US VLESS-16 | free-nodes
+  - HK VLESS-17 | free-nodes
+  - US VLESS-18 | free-nodes
+  - SG VLESS-19 | free-nodes
   - hysteria2-1880873612
   - hysteria2-1855771838
   - hysteria2-1939845046
@@ -8491,6 +8484,9 @@ proxy-groups:
   - trojan-1943021601
   - trojan-1856634545
   - trojan-1923819684
+  - trojan-1934984141
+  - trojan-1858673309
+  - trojan-1933715118
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
