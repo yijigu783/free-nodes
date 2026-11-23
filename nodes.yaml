@@ -1,7 +1,7 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-22 23:41:39 UTC
-# 节点数: 43 | 来源: free18(56), ermaozi(257), mahdibland(138), nomorewalls(93), v2rayfree(10), au1rxx(246)
-# 已优选：仅保留港台新日 + hysteria2/vless/trojan 的 43 个节点，按中国延迟实测排序；完整版见 nodes-full.yaml。
+# 生成时间: 2026-11-23 01:41:41 UTC
+# 节点数: 42 | 来源: free18(56), ermaozi(347), mahdibland(138), nomorewalls(49), v2rayfree(7), au1rxx(203)
+# 已优选：仅保留港台新日 + hysteria2/vless/trojan 的 42 个节点，按中国延迟实测排序；完整版见 nodes-full.yaml。
 # 中国延迟为 Globalping 实测中位数（ICMP，未测代理协议本身）；仅供应急；勿用于登录重要账号。
 proxies:
 - name: 🇭🇰HK-18.163.61.231-0249 | 0.051MB
@@ -40,6 +40,18 @@ proxies:
   ws-opts:
     headers:
       Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
+    path: /
+- name: '🇸🇬[www.v2nodes.com] vless-SG #1'
+  network: ws
+  port: 8080
+  server: 104.26.13.31
+  servername: ip.sb
+  tls: false
+  type: vless
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  ws-opts:
+    headers:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
     path: /
 - type: vless
   name: 🇯🇵_JP_日本_IPV4 (2)
@@ -142,51 +154,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  down: 200
-  name: 🇭🇰HK_1|1.4MB/s
-  obfs: salamander
-  obfs-password: o5qgnpl75wayhkn5
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: nb2hk.hikigo.com
-  skip-cert-verify: true
-  sni: nb2hk.hikigo.com
-  type: hysteria2
-  udp: true
-  up: 100
-- alpn:
-  - h3
-  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  down: 200
-  name: 🇯🇵 日本 | JPN
-  obfs: salamander
-  obfs-password: yhlbhcysaba0wtn1
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: nb5rb.hikigo.com
-  skip-cert-verify: true
-  sni: nb5rb.hikigo.com
-  type: hysteria2
-  udp: true
-  up: 100
-- alpn:
-  - h3
-  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  down: 200
-  name: 🇸🇬 新加坡 | SGP (2)
-  obfs: salamander
-  obfs-password: fcfqz5o4znnjqtrp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: hkzfsg2.mateflora.com
-  skip-cert-verify: true
-  sni: hkzfsg2.mateflora.com
-  type: hysteria2
-  udp: true
-  up: 100
 - down: ''
   fingerprint: ''
   name: 🇭🇰HK_2|1.2MB/s
@@ -203,7 +170,7 @@ proxies:
   - h3
   auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
   down: 200
-  name: 🇯🇵 日本 | JPN (2)
+  name: 🇯🇵 日本 | JPN
   obfs: salamander
   obfs-password: e3ymhs6gbzptjysj
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -214,9 +181,24 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
+- alpn:
+  - h3
+  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  down: 200
+  name: 🇯🇵 日本 | JPN 3
+  obfs: salamander
+  obfs-password: yhlbhcysaba0wtn1
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: nb5rb.hikigo.com
+  skip-cert-verify: true
+  sni: nb5rb.hikigo.com
+  type: hysteria2
+  udp: true
+  up: 100
 - auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
   fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
-  name: '🇸🇬 新加坡 | SGP #2 (2)'
+  name: '🇸🇬 新加坡 | SGP #2'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 54.179.142.35
@@ -224,6 +206,21 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  down: 200
+  name: 🇸🇬 新加坡 | SGP 4
+  obfs: salamander
+  obfs-password: fcfqz5o4znnjqtrp
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: hkzfsg2.mateflora.com
+  skip-cert-verify: true
+  sni: hkzfsg2.mateflora.com
+  type: hysteria2
+  udp: true
+  up: 100
 - alpn:
   - h3
   auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -239,6 +236,14 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
+- name: 🇸🇬226664 | ⚡️Telegram = t.me/L...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.129.241.99
+  skip-cert-verify: true
+  sni: 47.129.241.99
+  tls: false
+  type: hysteria2
 - type: vless
   name: 🇸🇬 新加坡 | SGP
   server: 104.18.35.75
@@ -328,33 +333,19 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- alpn:
-  - h3
-  name: 🇸🇬[www.v2nodes.com] vless-SG
-  network: ws
-  port: 443
-  server: 27.50.48.6
-  servername: vless2-8vx.pages.dev
-  tls: true
-  type: vless
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
-  ws-opts:
-    headers:
-      Host: vless2-8vx.pages.dev
-    path: /fp=chrome
 - client-fingerprint: chrome
-  name: 🇯🇵[www.v2nodes.com] vless-JP
+  name: 🇭🇰[www.v2nodes.com] vless-HK
   network: ws
   port: 443
-  server: 103.201.130.126
-  servername: tt-9nz.pages.dev
+  server: 45.133.73.167
+  servername: zmxoo.de5.net
   tls: true
   type: vless
-  uuid: 39303679-4e68-4233-8def-8f4f9e48d611
+  uuid: 0fc0ded7-32b3-4e36-a623-6e7670225247
   ws-opts:
     headers:
-      Host: tt-9nz.pages.dev
-    path: /item/favourites
+      Host: zmxoo.de5.net
+    path: /html/order/torrent
 - name: 🇭🇰[www.v2nodes.com] vless-HK-4...
   network: ws
   port: 443
@@ -377,14 +368,6 @@ proxies:
   uuid: 4808e2ce-14f4-4f5e-b8f4-59fb92fffa09
 - client-fingerprint: chrome
   name: 🇸🇬[www.v2nodes.com] vless-SG-1...
-  port: 8443
-  server: 207.148.124.12
-  servername: www.bing.com
-  tls: true
-  type: vless
-  uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
-- client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
   network: ws
   port: 2096
   server: 139.162.27.96
@@ -409,28 +392,14 @@ proxies:
     headers:
       Host: ty986gfazs.cainiaohub.xyz
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-- name: 🇸🇬[www.v2nodes.com] trojan-SG-...
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 15.235.184.127
-  skip-cert-verify: false
-  sni: exploredigitaljobplatformandfindonlinework.com
+- name: 🇯🇵[www.v2nodes.com] trojan-JP-...
+  password: LDSLDq9XlM4-92pvTPOUuklMb99BLOCrdyejsupEca4
+  port: 17443
+  server: 156.246.93.237
+  skip-cert-verify: true
+  sni: jpk.wentibuxiaobuda.xyz
   type: trojan
-- client-fingerprint: chrome
-  name: '🇭🇰 香港 | HKG #2'
-  network: ws
-  port: 443
-  server: 45.133.73.167
-  servername: zmxoo.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0fc0ded7-32b3-4e36-a623-6e7670225247
-  ws-opts:
-    headers:
-      Host: zmxoo.de5.net
-    path: /html/order/torrent
-- name: '🇸🇬 新加坡 | SGP #2'
+- name: '🇸🇬 新加坡 | SGP #6'
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
   server: bgsg1.hikigo.com
@@ -438,64 +407,12 @@ proxies:
   sni: bgsg1.hikigo.com
   type: trojan
   udp: true
-- name: 🇯🇵 日本 | JPN 2
-  server: 155.248.175.201
-  port: 23169
-  type: vless
-  uuid: 7318caa1-93d1-4a9d-c481-504599902700
-  tls: true
-  flow: xtls-rprx-vision
-  servername: djj.zjlo.top
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: 🇯🇵 日本 | JPN 3
-  server: jp2static.jumpernode.site
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  type: vless
-  uuid: f325fb7d-cad5-4ac8-8888-3f39b4b9d1ca
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: GeKuYNeAqQQkTN9OMJxXA9I-rXs7IiGh4Sl82crCITc
-    short-id: 6281f3ef81187ad8
-  servername: www.amzn.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  server: 163.128.99.154
-  port: 443
-  type: vless
-  uuid: 3a1c6827-72a1-4d1c-9413-44109ff815f4
-  tls: true
-  packet-encoding: xudp
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  servername: navi.bankrate.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  server: 116.213.43.43
-  port: 11102
-  type: vless
-  uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: oW6HMjniDmBJdjGKwhBAIS2zMS1VvHORubh9vdazqQ0
-    short-id: ed571d022f7bc3bf
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇯🇵[www.v2nodes.com] trojan-JP-...
-  password: LDSLDq9XlM4-92pvTPOUuklMb99BLOCrdyejsupEca4
-  port: 17443
-  server: 156.246.93.237
-  skip-cert-verify: true
-  sni: jpk.wentibuxiaobuda.xyz
+  server: 15.235.184.127
+  skip-cert-verify: false
+  sni: exploredigitaljobplatformandfindonlinework.com
   type: trojan
 - client-fingerprint: chrome
   name: '🇸🇬 新加坡 | SGP #1'
@@ -529,6 +446,53 @@ proxies:
   sni: www.cloudflare.com
   type: trojan
   udp: true
+- name: 🇭🇰 香港 | HKG 3
+  server: 64.118.130.152
+  port: 443
+  type: trojan
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  sni: nb1hk.hikigo.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港 | HKG 5
+  server: nb1hk.hikigo.com
+  port: 443
+  type: trojan
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  sni: nb1hk.hikigo.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港 | HKG 6
+  server: 116.213.43.43
+  port: 11106
+  type: vless
+  uuid: 2e7bd251-52be-4ffa-b79e-108e1fe07185
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: -13uTSuqk44pCU0x6yvldaskzyRIlO2ihmDvM0FsBns
+    short-id: da12e31124830d42
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇸🇬 新加坡 | SGP (2)
+  server: 77.93.89.2
+  port: 443
+  type: trojan
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  sni: bgsg1.hikigo.com
+  skip-cert-verify: true
+  udp: true
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: nu2rb.supertoolify.com
+  skip-cert-verify: true
+  sni: nu2rb.supertoolify.com
+  type: trojan
+  udp: true
 - name: HK VLESS-22 | free-nodes
   type: vless
   server: 152.175.6.229
@@ -551,6 +515,7 @@ proxy-groups:
   - 🇭🇰HK-18.163.61.231-0249 | 0.051MB
   - 🇯🇵_JP_日本_IPV4 (4)
   - 🇸🇬[www.v2nodes.com] vless-SG-9...
+  - '🇸🇬[www.v2nodes.com] vless-SG #1'
   - 🇯🇵_JP_日本_IPV4 (2)
   - 🇸🇬_SG_新加坡_IPV4 (2)
   - 🇯🇵_JP_日本_IPV4 (3)
@@ -558,37 +523,35 @@ proxy-groups:
   - '🇯🇵[www.v2nodes.com] vless-JP-1... #1'
   - 🇯🇵 20@exclavevpn
   - 🇸🇬214601 | ⚡️Telegram = t.me/v...
-  - 🇭🇰HK_1|1.4MB/s
-  - 🇯🇵 日本 | JPN
-  - 🇸🇬 新加坡 | SGP (2)
   - 🇭🇰HK_2|1.2MB/s
-  - 🇯🇵 日本 | JPN (2)
-  - '🇸🇬 新加坡 | SGP #2 (2)'
+  - 🇯🇵 日本 | JPN
+  - 🇯🇵 日本 | JPN 3
+  - '🇸🇬 新加坡 | SGP #2'
+  - 🇸🇬 新加坡 | SGP 4
   - 🇸🇬 新加坡 | SGP 5
+  - 🇸🇬226664 | ⚡️Telegram = t.me/L...
   - 🇸🇬 新加坡 | SGP
   - 🇯🇵_日本
   - 🇭🇰_香港 (6)
   - 🇭🇰_香港 (5)
   - 🇭🇰_香港 (4)
   - 🇯🇵_JP_日本_IPV4
-  - 🇸🇬[www.v2nodes.com] vless-SG
-  - 🇯🇵[www.v2nodes.com] vless-JP
+  - 🇭🇰[www.v2nodes.com] vless-HK
   - 🇭🇰[www.v2nodes.com] vless-HK-4...
   - 🇯🇵[www.v2nodes.com] vless-JP-1...
   - 🇸🇬[www.v2nodes.com] vless-SG-1...
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
   - 🇹🇼[www.v2nodes.com] vless-TW-1...
-  - 🇸🇬[www.v2nodes.com] trojan-SG-...
-  - '🇭🇰 香港 | HKG #2'
-  - '🇸🇬 新加坡 | SGP #2'
-  - 🇯🇵 日本 | JPN 2
-  - 🇯🇵 日本 | JPN 3
-  - 🇸🇬 新加坡 | SGP 3
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
   - 🇯🇵[www.v2nodes.com] trojan-JP-...
+  - '🇸🇬 新加坡 | SGP #6'
+  - '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
   - '🇸🇬 新加坡 | SGP #1'
   - '🇸🇬 新加坡 | SGP #7'
   - '🇹🇼 🇨🇳 台湾 | TWN #1'
+  - 🇭🇰 香港 | HKG 3
+  - 🇭🇰 香港 | HKG 5
+  - 🇭🇰 香港 | HKG 6
+  - 🇸🇬 新加坡 | SGP (2)
+  - 日本|@ripaojiedian
   - HK VLESS-22 | free-nodes
   - SG VLESS-24 | free-nodes
 - name: 自动选择
