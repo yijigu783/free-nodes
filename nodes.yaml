@@ -1,7 +1,7 @@
 # 统一免费节点订阅 (Clash Meta)
-# 生成时间: 2026-11-23 07:42:13 UTC
-# 节点数: 46 | 来源: free18(402), ermaozi(300), mahdibland(56), nomorewalls(42)
-# 已优选：仅保留港台新日 + hysteria2/vless/trojan 的 46 个节点，按中国延迟实测排序；完整版见 nodes-full.yaml。
+# 生成时间: 2026-11-23 09:41:56 UTC
+# 节点数: 47 | 来源: free18(402), ermaozi(300), mahdibland(46), nomorewalls(49), v2rayfree(3)
+# 已优选：仅保留港台新日 + hysteria2/vless/trojan 的 47 个节点，按中国延迟实测排序；完整版见 nodes-full.yaml。
 # 中国延迟为 Globalping 实测中位数（ICMP，未测代理协议本身）；仅供应急；勿用于登录重要账号。
 proxies:
 - type: trojan
@@ -533,6 +533,13 @@ proxies:
   sni: bgsg1.hikigo.com
   skip-cert-verify: true
   udp: true
+- name: 🇯🇵JP-103.125.216.11-0951 | 0.0MB
+  server: 103.125.216.11
+  port: 443
+  type: trojan
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  sni: 103.125.216.11
+  skip-cert-verify: false
 - name: 日本|@ripaojiedian
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -591,6 +598,7 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 5
   - 🇭🇰 香港 | HKG 6
   - 🇸🇬 新加坡 | SGP
+  - 🇯🇵JP-103.125.216.11-0951 | 0.0MB
   - 日本|@ripaojiedian
 - name: 自动选择
   type: url-test
